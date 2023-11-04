@@ -1,0 +1,30 @@
+{
+  "name": "00-tailwind-setup",
+  "version": "1.0.0",
+  "description": "a simple Tailwind CSS setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/styles.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAbdurahman/00-tailwind-setup.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "and",
+    "TailwindCSS"
+  ],
+  "author": "Mahdi Abdurrahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MAbdurahman/00-tailwind-setup/issues"
+  },
+  "homepage": "https://github.com/MAbdurahman/00-tailwind-setup#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
